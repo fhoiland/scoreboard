@@ -1,0 +1,127 @@
+@font-face {
+    font-family: "cursed-timer-ulil-font";
+    src: url(/cursed-timer-ulil-font/CursedTimerUlil-Aznm.ttf);
+}
+body {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+.container {
+    max-width: 575px;
+    height: 385px;
+    margin: 200px auto;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    background-color: #1B244A;
+    color: #EEEEEE;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    font-style: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+#scoreHome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    height: 120px;
+    background-color: black;
+    font-family: "cursed-timer-ulil-font";
+    font-weight: 400;
+    font-size: 90px;
+    color: #F94F6D;
+    
+}
+
+#scoreGuest {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 10px;
+    height: 120px;
+    background-color: black;
+    font-family: "cursed-timer-ulil-font";
+    font-weight: 400;
+    font-size: 90px;
+    color: #F94F6D;
+    
+}
+
+.number {
+    font-family: "cursed-timer-ulil-font";
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 26px;
+    display: flex;
+    gap: 9px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    height: 45px;
+    width: 100%;
+ 
+}
+
+#home-num1{
+    border: 2px solid #9AABD8;
+    border-radius: 4px;
+    height: 39px;
+    width: 45px;
+    padding-top: 8px;
+    cursor: pointer;
+}
+
+#home-num2 {
+    border: 2px solid #9AABD8;
+    border-radius: 4px;
+    height: 39px;
+    width: 45px;
+    padding-top: 8px;
+    cursor: pointer;
+}
+
+#home-num3 {
+    border: 2px solid #9AABD8;
+    border-radius: 4px;
+    height: 39px;
+    width: 45px;
+    padding-top: 8px;
+    cursor: pointer;
+}
+
+#guest-num1{
+    border: 2px solid #9AABD8;
+    border-radius: 4px;
+    height: 39px;
+    width: 45px;
+    padding-top: 8px;
+    cursor: pointer;
+}
+
+#guest-num2 {
+    border: 2px solid #9AABD8;
+    border-radius: 4px;
+    height: 39px;
+    width: 45px;
+    padding-top: 8px;
+    cursor: pointer;
+}
+
+#guest-num3 {
+    border: 2px solid #9AABD8;
+    border-radius: 4px;
+    height: 39px;
+    width: 45px;
+    padding-top: 8px;
+    cursor: pointer;
+}
